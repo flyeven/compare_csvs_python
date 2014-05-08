@@ -4,7 +4,9 @@ compare_csvs_python
 Python - Compare/Diff csv files using python, numpy
 
 This single script is used to compare a set of similar csv files and report the differences between each set of file,
-row and column wise. Many times, your programs could generate a set of csv files as reports or output. You might
+row and column wise. Many times, your programs could generate a set of csv files as reports or output. 
+
+You might
 have to run the programs multiple times for various options. Or sometimes, you generate various set of reports for
 debugging. 
 In all these scenarios, instead of manually checking each and every column, this automated script will become very
@@ -16,3 +18,8 @@ simplifies processing csv files.
 
 Note:
 This works for similar csv files (they should have similar number of columns and similar set of data columns)
+
+How to run?
+python compare_csv.py dir1 dir2
+
+where dir1 and dir2 contains the similar set of csv files. You should copy the folders to wherever the script compare_csv.py exists

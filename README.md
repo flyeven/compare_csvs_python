@@ -20,6 +20,7 @@ Note:
 This works for similar csv files (they should have similar number of columns and similar set of data columns)
 
 How to run?
+
 python compare_csv.py dir1 dir2
 
 where dir1 and dir2 contains the similar set of csv files. You should copy the folders to wherever the script compare_csv.py exists
